@@ -17,6 +17,7 @@ function isPalindrome(word) {
   }
   
   // Write your algorithm here
+  
 }
 
 /* 
@@ -36,6 +37,13 @@ return false
 
 /*
   Add written explanation of your solution here
+
+  Use split method so the string turns into an array with each letter.
+  Now we can easily iterate over it with an array method
+  such as .reverse. The goal is to see if the string is the same
+  forwards and backwards. Then join the new flipped string, 
+  and compare it with the orginal string to return true or false.
+
 */
 
 // You can run `node index.js` to view these console logs
